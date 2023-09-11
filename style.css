@@ -1,0 +1,29 @@
+.title{
+    background-color:   rgb(19, 41, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+body{
+    font-family:'Montserrat', sans-serif; ;
+    background-color: rgb(106, 247, 106);
+}
+.text{
+    padding: 20px;
+    text-align: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(19, 41, 0);
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+.bye{
+    display: flex;
+    justify-content: center;
+}
