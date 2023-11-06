@@ -9,7 +9,8 @@
 }
 body{
     font-family:'Montserrat', sans-serif; ;
-    background-color: rgb(106, 247, 106);
+    /* background-color: rgb(152, 255, 152); */
+    background-color: #42b916;
 }
 .text{
     padding: 20px;
@@ -26,4 +27,34 @@ body{
 .bye{
     display: flex;
     justify-content: center;
+}
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+tr {
+    background-color: #dddddd;
+    height: 30px;
+    width: 275px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+tr:hover {
+    background-color: #DFF5FF;
+}
+@media (max-width: 550px) {
+    .image{
+        background-color: #42b916;
+    }
 }
